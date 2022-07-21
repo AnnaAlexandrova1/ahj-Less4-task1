@@ -56,6 +56,7 @@ export default class Widget {
     const button = document.createElement('button');
     button.type = 'submit';
     button.id = 'sumbitNumber';
+    button.classList.add('button');
     button.textContent = 'Click to Validate';
     this.inputForm.lastChild.appendChild(button);
   }
